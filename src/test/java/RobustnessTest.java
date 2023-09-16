@@ -30,7 +30,7 @@ class RobustnessTest
             "50.5,   100.5,   101.0",
             "50.5,   100.5,   199.0",
             "50.5,   100.5,   200.0",
-            "50.5,   100.5,   201.0",   //Expected failure
+            "50.5,   100.5,   201.0",   //Expected test failure
             "100.0,  100.0,   120.0",   //Expected result: Isosceles (additional test case)
             "100.0,  100.0,   100.0"   //Expected result: Equilateral (additional test case)
     })
