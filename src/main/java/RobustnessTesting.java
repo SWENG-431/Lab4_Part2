@@ -5,12 +5,13 @@
 public class RobustnessTesting
 {
     /**
-     * Method that checks if dimensions are
-     * consistent with those of a triangle.
+     * Method that checks if boundary
+     * conditions are satisfied.
      * @param a takes in side a of the triangle
      * @param b takes in side b
      * @param c takes in side c
-     * @return true if consistent else false
+     * @return true if conditions are satisfied
+     *  else false
      */
     public boolean Foo(double a, double b, double c)
     {
@@ -42,13 +43,12 @@ public class RobustnessTesting
     }
 
     /**
-     * Method that checks if boundary
-     * conditions are satisfied.
+     * Method that checks if dimensions are
+     * consistent with those of a triangle.
      * @param a takes in side a of the triangle
      * @param b takes in side b
      * @param c takes in side c
-     * @return true if conditions are satisfied
-     *  else false
+     * @return true if consistent else false
      */
     public boolean verifyIfTriangle(double a, double b, double c) throws InvalidInputException
     {
